@@ -75,7 +75,7 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "VAJIRA-MD=" + string_session;
+                        let md = "" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
                         let desc = `*┏━━━━━━━━━━━━━━*
 *┃MALVIN-MD SESSION IS*
@@ -90,6 +90,9 @@ var randomItem = selectRandomItem(items);
 *❸ || Owner =* https://wa.me/+263714757857
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 *❹ || Repo =* https://github.com/kingmalvn/MALVIN-MD 
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+*❹.1 || Repo =* https://github.com/kingmalvn/LORD-XMD
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 *❺ || You Tube =* https://www.youtube.com/@malvintech2 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
