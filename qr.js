@@ -70,16 +70,16 @@ var randomItem = selectRandomItem(items);
                         const { upload } = require('./mega');
                         const mega_url = await upload(fs.createReadStream(rf), `${sock.user.id}.json`);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
-                        let md = "MALVIN-XMD~" + string_session;
+                        let md = "SASAKI MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/kingmalvn/MALVIN-XMD`;
+                        let desc = `*A multi device whatsapp bot created by 𝐒⟁𝐒𝚫𝐊𝚰✞𝚻𝚵𝐂𝚮🪀. Bringing forth a new evolution. Fork and star 🌟 if you like my bot..*\n\n ◦ *Github:* https://github.com/LordAlphaseven/SASAKI_MD`;
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-ᴍᴅ",
+title: "𝐒⟁𝐒𝚫𝐊𝚰✞𝚳𝐃",
 thumbnailUrl: "https://files.catbox.moe/39z8jd.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z",
+sourceUrl: "https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41",
 mediaType: 1,
 renderLargerThumbnail: true
 }  
@@ -88,14 +88,14 @@ renderLargerThumbnail: true
 {quoted:code })
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*𝙳𝚘𝚗𝚝 𝚜𝚑𝚊𝚛𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢𝚘𝚗𝚎!! 𝚄𝚜𝚎 𝚝𝚑𝚒𝚜 𝚌𝚘𝚍𝚎 𝚝𝚘 𝚌𝚛𝚎𝚊𝚝𝚎 𝙼𝙰𝙻𝚅𝙸𝙽 𝙼𝙳 𝚆𝚑𝚊𝚝𝚜𝚊𝚙𝚙 𝚄𝚜𝚎𝚛 𝚋𝚘𝚝.*\n\n ◦ *Github:* https://github.com/kingmalvn/MALVIN-XMD`;
+                            let desc = `*A multi device whatsapp bot created by 𝐒⟁𝐒𝚫𝐊𝚰✞𝚻𝚵𝐂𝚮🪀. Bringing forth a new evolution. Fork and star 🌟 if you like my bot..*\n\n ◦ *Github:* https://github.com/LordAlphaseven/SASAKI_MD`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "ᴍᴀʟᴠɪɴ-ᴍᴅ",
+title: "𝐒⟁𝐒𝚫𝐊𝚰✞𝚳𝐃",
 thumbnailUrl: "https://files.catbox.moe/39z8jd.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z",
+sourceUrl: "https://whatsapp.com/channel/0029Vajrhmz96H4IsEjh4a41",
 mediaType: 2,
 renderLargerThumbnail: true,
 showAdAttribution: true
